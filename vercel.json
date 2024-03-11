@@ -5,8 +5,8 @@
       "src": "portfolio/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "256mb",  
-        "runtime": "python3.8"     
+        "maxLambdaSize": "256mb", 
+        "runtime": "python3.8"      
       }
     },
     {
@@ -20,8 +20,8 @@
       "dest": "/static/$1"
     },
     {
-      "src": "(.*)",
+      "src": "(.*)",  
       "dest": "portfolio/wsgi.py"
     }
-  ],
+  ]
 }
