@@ -1,20 +1,19 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "manage.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      { "handle": "filesystem" },
-      {
-        "src": "/.*",
-        "dest": "/manage.py"
-      }
-    ],
-    "env": {
-      "DJANGO_SETTINGS_MODULE": "portfolio.settings"
+  "version": 2,
+  "builds": [
+    {
+      "src": "portfolioapi/**",
+      "use": "@vercel/python"
     }
-  }
-  
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/portfolioapi/static/\1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/portfolioapi/\1"
+    }
+  ]
+}
