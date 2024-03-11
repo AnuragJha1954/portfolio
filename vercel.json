@@ -2,14 +2,26 @@
   "version": 2,
   "builds": [
     {
-      "src": "portfolioapi/**",
-      "use": "@vercel/python"
+      "src": "portfolio/wsgi.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "256mb",  // Increased size limit for Django dependencies
+        "runtime": "python3.8"      // Adjusted runtime based on compatibility (check requirements)
+      }
+    },
+    {
+      "src": "collectstatic.sh",  // Custom script to collect static files
+      "use": "@vercel/shell"       // Use Vercel's shell builder
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/portfolioapi/$1"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "(.*)",
+      "dest": "portfolio/wsgi.py"
     }
-  ]
+  ],
 }
