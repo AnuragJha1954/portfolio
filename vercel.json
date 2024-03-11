@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/portfolioapi/\1"
+      "dest": "/portfolioapi/$1"
     }
   ]
 }
