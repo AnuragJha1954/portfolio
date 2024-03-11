@@ -5,22 +5,22 @@
       "src": "portfolio/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "256mb", 
-        "runtime": "python3.8"      
+        "maxLambdaSize": "256mb",
+        "runtime": "python3.8"
       }
     },
     {
-      "src": "collectstatic.sh",  
-      "use": "@vercel/shell"      
+      "src": "collectstatic.sh",
+      "use": "@vercel/shell"
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "static/$1" 
     },
     {
-      "src": "(.*)",  
+      "src": "(.*)",
       "dest": "portfolio/wsgi.py"
     }
   ]
