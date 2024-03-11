@@ -5,13 +5,13 @@
       "src": "portfolio/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "256mb",  // Increased size limit for Django dependencies
-        "runtime": "python3.8"      // Adjusted runtime based on compatibility (check requirements)
+        "maxLambdaSize": "256mb",  
+        "runtime": "python3.8"     
       }
     },
     {
-      "src": "collectstatic.sh",  // Custom script to collect static files
-      "use": "@vercel/shell"       // Use Vercel's shell builder
+      "src": "collectstatic.sh",  
+      "use": "@vercel/shell"      
     }
   ],
   "routes": [
