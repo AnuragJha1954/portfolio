@@ -15,21 +15,9 @@
     }
   ],
   "routes": [
-    {
+        {
       "src": "/static/(.*)",
-      "dest": "static/$1" 
-    },
-    {
-      "src": "/static/css/(.*)",
-      "dest": "static/css/$1" 
-    },
-    {
-      "src": "portfolioapi/static/(.*)",
-      "dest": "portfolioapi/static/$1" 
-    },
-    {
-      "src": "portfolioapi/static/css/(.*)",
-      "dest": "portfolioapi/static/css/$1" 
+      "dest": "/portfolioapi/static/$1"
     },
     {
       "src": "(.*)",
