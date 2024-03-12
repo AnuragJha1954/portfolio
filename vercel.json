@@ -20,6 +20,10 @@
       "dest": "/portfolioapi/static/$1"
     },
     {
+      "src": "/static/css/(.*)",
+      "dest": "/portfolioapi/static/css/$1"
+    },
+    {
       "src": "(.*)",
       "dest": "portfolio/wsgi.py"
     }
