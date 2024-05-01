@@ -146,13 +146,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'portfolioapi/staticfiles')
 
 
 
-# settings.py
+# # settings.py
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp-mail.outlook.com'  # Outlook SMTP server
-EMAIL_PORT = 587  # Outlook SMTP port
-EMAIL_USE_TLS = True  # Enable TLS encryption
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp-mail.outlook.com'  # Outlook SMTP server
+# EMAIL_PORT = 587  # Outlook SMTP port
+# EMAIL_USE_TLS = True  # Enable TLS encryption
 
-# Your Outlook email credentials
-EMAIL_HOST_USER = 'anuragjha@jklu.edu.in'  # Replace with your Outlook email address
-EMAIL_HOST_PASSWORD = ''  # Replace with your Outlook password
+# # Your Outlook email credentials
+# EMAIL_HOST_USER = 'anuragjha@jklu.edu.in'  # Replace with your Outlook email address
+# EMAIL_HOST_PASSWORD = ''  # Replace with your Outlook password

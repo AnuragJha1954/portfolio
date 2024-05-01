@@ -22,14 +22,14 @@ def terminal(request):
 @csrf_exempt
 def contact(request):
     if request.method == 'POST':
-        name = request.POST.get('name')
-        email = request.POST.get('email')
-        subject = request.POST.get('subject')
-        text = request.POST.get('text')
-        from_email= settings.EMAIL_HOST_USER
-        message = f"Name: {name}\nEmail: {email}\nMessage: {text}"
-        recipient_email = 'office.anuragjha@gmail.com'
+        # name = request.POST.get('name')
+        # email = request.POST.get('email')
+        # subject = request.POST.get('subject')
+        # text = request.POST.get('text')
+        # from_email= settings.EMAIL_HOST_USER
+        # message = f"Name: {name}\nEmail: {email}\nMessage: {text}"
+        # recipient_email = 'office.anuragjha@gmail.com'
         
-        return JsonResponse({'success': success, 'message': 'Email Sent Successfully'})
+        return JsonResponse({'success': True, 'message': 'Email Sent Successfully'})
     else:
         return render(request, 'contact.html')
