@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO METADATA -->
+    <title>Anurag Jha | Backend Developer & Product Strategist</title>
+    <meta name="description" content="Backend Developer, Software Engineer, and Co-founder building scalable systems with business impact—currently pursuing an MBA in Technology Management.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.anuragjha.dev/">
+    
+    <!-- OPEN GRAPH / SOCIAL -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Anurag Jha | Backend Developer & Product Strategist">
+    <meta property="og:description" content="Bridging backend engineering with product thinking. Building solutions that scale technically and commercially.">
+    <meta property="og:url" content="https://www.anuragjha.dev/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop">
+    
+    <!-- PERFORMANCE OPTIMIZATION -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="dns-prefetch" href="https://img.rocket.new">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    
+    <!-- EXTERNAL ASSETS -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@0.577.0"></script>
+    
+    <link rel="stylesheet" href="css/main.css">
+  
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdevportfol4204back.builtwithrocket.new&_be=https%3A%2F%2Fappanalytics.rocket.new&_v=0.1.20"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="bg-dark text-steel antialiased selection:bg-white selection:text-dark">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 px-6 flex justify-between items-center mix-blend-exclusion text-white transition-all duration-300 py-6" id="navbar">
+        <a href="/" class="font-display text-2xl tracking-tighter uppercase font-semibold z-50 relative" aria-label="Anurag Jha Portfolio Home">
+            ANURAG JHA<span class="opacity-50">.</span>
+        </a>
+        
+        <div class="hidden md:flex gap-8 text-[10px] font-medium uppercase tracking-widest items-center">
+            <a href="#about" class="hover:text-white/50 transition-colors">About</a>
+            <a href="#skills" class="hover:text-white/50 transition-colors">Skills</a>
+            <a href="#experience" class="hover:text-white/50 transition-colors">Journey</a>
+            <a href="#contact" class="border border-white/30 px-5 py-2 rounded-sm hover:bg-white hover:text-dark transition-colors">Let's Connect</a>
+        </div>
+        
+        <button class="md:hidden z-50 p-2 -mr-2 text-white" onclick="toggleMenu()" aria-label="Toggle Menu">
+            <i data-lucide="menu" class="w-6 h-6 stroke-[1.5]"></i>
+        </button>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-dark z-40 transform translate-y-full transition-transform duration-500 flex flex-col justify-center items-center text-white">
+        <div class="flex flex-col gap-6 text-center">
+            <a href="#about" onclick="toggleMenu()" class="font-display text-5xl uppercase tracking-tighter hover:text-gray-400 transition-colors">About</a>
+            <a href="#skills" onclick="toggleMenu()" class="font-display text-5xl uppercase tracking-tighter hover:text-gray-400 transition-colors">Skills</a>
+            <a href="#experience" onclick="toggleMenu()" class="font-display text-5xl uppercase tracking-tighter hover:text-gray-400 transition-colors">Journey</a>
+            <a href="#contact" onclick="toggleMenu()" class="font-display text-5xl uppercase tracking-tighter hover:text-gray-400 transition-colors">Contact</a>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <header class="relative w-full h-screen min-h-[600px] flex items-end justify-between px-6 pb-12 overflow-hidden bg-dark text-white">
+        <div class="absolute inset-0 z-0 opacity-30 parallax-bg">
+                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1dfbc27cd-1766500363073.png"  
+                 class="w-full h-full object-cover grayscale" 
+                 loading="lazy"
+                 alt="Software development workspace with multiple monitors displaying code">
+        </div>
+        
+        <div class="relative z-10 w-full flex flex-col md:flex-row md:items-end justify-between gap-8">
+            <div class="max-w-3xl">
+                <span class="inline-block mb-4 px-3 py-1 border border-white/20 rounded-sm text-[10px] uppercase tracking-widest backdrop-blur-md fade-in-up" style="animation-delay: 0.1s;">
+                    Backend Developer × Product Strategist
+                </span>
+                <h1 class="font-display text-6xl md:text-9xl leading-[0.85] tracking-tighter mb-4 font-bold">
+                    <span class="typing-text fade-in-up" style="animation-delay: 0.3s;">ANURAG</span><br>
+                    <span class="italic font-light opacity-80 fade-in-up" style="animation-delay: 0.5s;">JHA</span>
+                </h1>
+                <p class="text-base md:text-lg font-light text-gray-400 max-w-lg leading-relaxed mt-6 fade-in-up" style="animation-delay: 0.7s;">
+                    Backend engineer with a product manager mindset. Building scalable systems that solve real business problems. Software engineer and co-founder, currently pursuing an MBA in Technology Management.
+                </p>
+                <div class="flex flex-wrap gap-3 mt-6 fade-in-up" style="animation-delay: 0.9s;">
+                    <div class="flex items-center gap-2 text-xs text-gray-500 hover-lift">
+                        <i data-lucide="map-pin" class="w-3 h-3"></i>
+                        <span>India</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs text-gray-500 hover-lift">
+                        <i data-lucide="briefcase" class="w-3 h-3"></i>
+                        <span>Open to Opportunities</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs text-gray-500 hover-lift">
+                        <i data-lucide="trending-up" class="w-3 h-3"></i>
+                        <span>Product-Focused Engineering</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col items-start md:items-end gap-6 fade-in-up" style="animation-delay: 1.1s;">
+                <div class="flex gap-4">
+                    <a href="https://github.com/AnuragJha1954" target="_blank" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all hover-rotate" aria-label="GitHub Profile">
+                        <i data-lucide="github" class="w-4 h-4 stroke-[1.5]"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anuragjha1954/" target="_blank" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all hover-rotate" aria-label="LinkedIn Profile">
+                        <i data-lucide="linkedin" class="w-4 h-4 stroke-[1.5]"></i>
+                    </a>
+                    <a href="mailto:office.anuragjha@gmail.com" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all hover-rotate" aria-label="Email">
+                        <i data-lucide="mail" class="w-4 h-4 stroke-[1.5]"></i>
+                    </a>
+                </div>
+                <div class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center animate-bounce-slow">
+                    <i data-lucide="arrow-down" class="w-4 h-4 stroke-[1.5]"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Infinite Marquee -->
+    <div class="bg-white text-dark py-4 border-y border-dark overflow-hidden whitespace-nowrap z-20 relative">
+        <div class="inline-flex animate-marquee font-display font-medium">
+            <span class="text-sm md:text-base uppercase tracking-tight px-8">Product Strategy</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Backend Development</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">REST APIs & Microservices</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">System Design & Scalable Architecture</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Cloud & DevOps</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Database Management</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Data Visualization & Business Metrics</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Third-Party Integrations & IAM</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">User Impact</span>
+<span class="text-sm md:text-base uppercase tracking-tight px-8">×</span>
+
+<span class="text-sm md:text-base uppercase tracking-tight px-8">Agile Execution</span>
+
+        </div>
+    </div>
+    
+    <!-- About Section -->
+<section class="py-20 md:py-32 px-6 bg-dark text-white relative overflow-hidden" id="about">
+    <div class="absolute inset-0 opacity-5 gradient-bg"></div>
+
+    <div class="max-w-6xl mx-auto relative z-10">
+
+        <!-- Section Header -->
+        <div class="reveal mb-16">
+            <span class="block text-[10px] uppercase tracking-[0.2em] text-gray-400 mb-4">
+                Background
+            </span>
+            <h2 class="font-display text-5xl md:text-6xl uppercase tracking-tighter leading-none font-bold">
+                ENGINEERING<br>
+                <span class="text-gray-500">MEETS</span><br>
+                PRODUCT
+            </h2>
+        </div>
+
+        <!-- ROW 1: Photo + Description -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start mb-20 reveal">
+
+            <!-- LEFT: Photo + Social + Stats -->
+            <div class="flex flex-col items-center lg:items-start space-y-8">
+
+                <!-- Profile Photo -->
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-700 animate-gradient"></div>
+                    <div class="relative w-64 h-64 rounded-2xl overflow-hidden bg-dark">
+                        <img
+                            src="https://i.ibb.co/M57kWWB8/Gemini-Generated-Image-fpfju6fpfju6fpfj.png"
+                            alt="Anurag Jha"
+                            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                            loading="lazy"
+                        >
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="flex gap-4">
+                    <a href="https://github.com/AnuragJha1954" target="_blank"
+                       class="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anuragjha1954/" target="_blank"
+                       class="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="mailto:office.anuragjha@gmail.com"
+                       class="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-4 w-full space-y-3">
+                    <div class="flex items-center gap-3 text-xs">
+                        <i data-lucide="briefcase" class="w-4 h-4 text-green-400"></i>
+                        <span class="text-white font-semibold">3+ Years Experience</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-xs">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-blue-400"></i>
+                        <span class="text-white font-semibold">India</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-xs">
+                        <i data-lucide="rocket" class="w-4 h-4 text-purple-400"></i>
+                        <span class="text-white font-semibold">Open to Work</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Description -->
+            <div class="space-y-6 text-sm text-gray-400 leading-relaxed">
+                <p>
+                    I'm <strong class="text-white">Anurag Jha</strong>, a backend developer who thinks like a product manager.
+                    I've spent years building systems that don’t just work — they drive measurable business value.
+                </p>
+                <p>
+                    From my early days at <strong class="text-white">Climbax Entertainment</strong> to leading projects at
+                    <strong class="text-white">Vibrant Digitech</strong>, I learned that great engineering only matters when
+                    it aligns with users, markets, and outcomes.
+                </p>
+                <p>
+                    In August 2024, I co-founded a product-focused venture to build software where technical excellence
+                    meets real-world needs. We don’t just ship features — we ship outcomes.
+                </p>
+                <p>
+                    Currently pursuing an <strong class="text-white">MBA in Technology Management</strong>, sharpening my
+                    business acumen to build products that scale technically and succeed commercially.
+                </p>
+
+                <!-- Pills -->
+                <div class="flex flex-wrap gap-3 pt-4">
+                    <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs">Backend Specialist</span>
+                    <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs">Product Thinker</span>
+                    <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs">Team Leader</span>
+                    <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs">MBA Candidate</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 2: Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal">
+            <div class="bg-white/5 border border-white/10 rounded-lg p-6 text-center hover:border-blue-500/40 transition-all">
+                <i data-lucide="target" class="w-10 h-10 mx-auto mb-4 text-blue-400"></i>
+                <h3 class="font-display uppercase font-semibold mb-2">Product-Minded Developer</h3>
+                <p class="text-sm text-gray-400">
+                    I design systems with users, metrics, and long-term scalability in mind.
+                </p>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 rounded-lg p-6 text-center hover:border-green-500/40 transition-all">
+                <i data-lucide="users" class="w-10 h-10 mx-auto mb-4 text-green-400"></i>
+                <h3 class="font-display uppercase font-semibold mb-2">Team Leadership</h3>
+                <p class="text-sm text-gray-400">
+                    Led cross-functional teams by aligning engineering with clear business outcomes.
+                </p>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 rounded-lg p-6 text-center hover:border-purple-500/40 transition-all">
+                <i data-lucide="rocket" class="w-10 h-10 mx-auto mb-4 text-purple-400"></i>
+                <h3 class="font-display uppercase font-semibold mb-2">Entrepreneurial Mindset</h3>
+                <p class="text-sm text-gray-400">
+                    Think beyond code — market fit, value creation, and sustainable growth matter.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Skills & Expertise Section -->
+<section class="py-16 md:py-24 px-4 md:px-6 bg-charcoal text-white" id="skills">
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Section Header -->
+        <div class="mb-12 reveal">
+            <span class="block text-[10px] md:text-xs uppercase tracking-[0.2em] text-gray-400 mb-2">
+                Core Competencies
+            </span>
+            <h2 class="font-display text-7xl md:text-8xl uppercase tracking-tighter leading-none font-bold">
+                SKILLS
+            </h2>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Backend Engineering -->
+            <div class="reveal stagger-child bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-8 hover:border-blue-500/50 transition-all hover-lift-rotate">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center animate-pulse-slow">
+                        <i data-lucide="server" class="w-6 h-6 text-blue-400"></i>
+                    </div>
+                    <h3 class="font-display text-xl uppercase tracking-tight font-semibold">
+                        Backend Engineering
+                    </h3>
+                </div>
+
+                <div class="space-y-3">
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-blue-400"></i>
+                        Django / Spring Boot / Node.js
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-blue-400"></i>
+                        RESTful APIs & Microservices
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-blue-400"></i>
+                        System Design & Scalable Architecture
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-blue-400"></i>
+                        Identity & Access Management
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-blue-400"></i>
+                        Security, Performance & Reliability
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data & Infrastructure -->
+            <div class="reveal stagger-child bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-8 hover:border-green-500/50 transition-all hover-lift-rotate">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center animate-pulse-slow">
+                        <i data-lucide="database" class="w-6 h-6 text-green-400"></i>
+                    </div>
+                    <h3 class="font-display text-xl uppercase tracking-tight font-semibold">
+                        Data & Infrastructure
+                    </h3>
+                </div>
+
+                <div class="space-y-3">
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-green-400"></i>
+                        SQL & NoSQL Databases (PostgreSQL, MongoDB)
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-green-400"></i>
+                        Redis / Caching & Performance Optimization
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-green-400"></i>
+                        AWS / Cloud Infrastructure
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-green-400"></i>
+                        Docker / Containerization
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-green-400"></i>
+                        CI/CD Pipelines & Deployment Automation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Strategy -->
+            <div class="reveal stagger-child bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-8 hover:border-purple-500/50 transition-all hover-lift-rotate">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-purple-500/20 flex items-center justify-center animate-pulse-slow">
+                        <i data-lucide="lightbulb" class="w-6 h-6 text-purple-400"></i>
+                    </div>
+                    <h3 class="font-display text-xl uppercase tracking-tight font-semibold">
+                        Product Strategy
+                    </h3>
+                </div>
+
+                <div class="space-y-3">
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-purple-400"></i>
+                        User Research & Problem Discovery
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-purple-400"></i>
+                        Feature Prioritization & Roadmapping
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-purple-400"></i>
+                        Data-Driven Product Decisions
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-purple-400"></i>
+                        Business Metrics & Outcome Tracking
+                    </div>
+                    <div class="text-xs text-gray-300 hover:text-white transition-colors hover:translate-x-2 duration-300">
+                        <i data-lucide="check" class="w-3 h-3 inline mr-2 text-purple-400"></i>
+                        Cross-Functional Leadership
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Impact Metrics -->
+        <div class="mt-16 reveal">
+            <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-8">
+                <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-6 text-center">
+                    Product Impact Metrics
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="text-center stagger-child hover-lift">
+                        <div class="text-3xl font-bold text-blue-400 mb-2 counter" data-target="3">0</div>
+                        <div class="text-xs uppercase tracking-widest text-gray-400">Years Experience</div>
+                    </div>
+                    <div class="text-center stagger-child hover-lift">
+                        <div class="text-3xl font-bold text-green-400 mb-2 counter" data-target="5000">0</div>
+                        <div class="text-xs uppercase tracking-widest text-gray-400">Users Impacted</div>
+                    </div>
+                    <div class="text-center stagger-child hover-lift">
+                        <div class="text-3xl font-bold text-purple-400 mb-2 counter" data-target="10">0</div>
+                        <div class="text-xs uppercase tracking-widest text-gray-400">Products Shipped</div>
+                    </div>
+                    <div class="text-center stagger-child hover-lift">
+                        <div class="text-3xl font-bold text-yellow-400 mb-2">99.9%</div>
+                        <div class="text-xs uppercase tracking-widest text-gray-400">System Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Experience & Education Timeline -->
+<section class="py-20 md:py-32 px-6 bg-white text-dark" id="experience">
+    <div class="max-w-5xl mx-auto">
+
+        <!-- Section Header -->
+        <div class="mb-16 text-center reveal">
+            <span class="block text-[10px] uppercase tracking-[0.2em] text-gray-500 mb-2">
+                Professional Path
+            </span>
+            <h2 class="font-display text-7xl md:text-8xl uppercase tracking-tighter leading-none font-bold">
+                JOURNEY
+            </h2>
+        </div>
+
+        <div class="space-y-12">
+            <!-- MBA -->
+            <div class="reveal fade-in-left flex gap-8 items-start group">
+                <div class="flex-shrink-0 w-32 text-right">
+                    <span class="text-sm font-mono text-gray-400">2025 – 2027</span>
+                </div>
+                <div class="flex-shrink-0 flex flex-col items-center">
+                    <div class="w-4 h-4 rounded-full bg-yellow-600 border-2 border-white shadow-lg group-hover:scale-150 transition-transform"></div>
+                    <div class="w-0.5 h-full bg-gray-200 mt-2"></div>
+                </div>
+                <div class="flex-1 pb-12 hover-lift">
+                    <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-2">
+                        MBA – Technology Management
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3 font-medium">
+                        T.A. Pai Management Institute (TAPMI)
+                    </p>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        Building business acumen across product strategy, finance, operations, and technology management to complement engineering depth.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-yellow-100 transition-colors">Business Acumen</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-yellow-100 transition-colors">Product Strategy</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-yellow-100 transition-colors">Leadership</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-yellow-100 transition-colors">Technology Management</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vibrant Digitech -->
+            <div class="reveal fade-in-left flex gap-8 items-start group">
+                <div class="flex-shrink-0 w-32 text-right">
+                    <span class="text-sm font-mono text-gray-400">May 2024 – Jun 2025</span>
+                </div>
+                <div class="flex-shrink-0 flex flex-col items-center">
+                    <div class="w-4 h-4 rounded-full bg-green-600 border-2 border-white shadow-lg group-hover:scale-150 transition-transform"></div>
+                    <div class="w-0.5 h-full bg-gray-200 mt-2"></div>
+                </div>
+                <div class="flex-1 pb-12 hover-lift">
+                    <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-2">
+                        Backend Developer & Project Lead
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3 font-medium">
+                        Vibrant Digitech
+                    </p>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        Led end-to-end development of scalable backend systems and managed cross-functional teams. Converted business requirements into technical roadmaps and introduced metrics-driven delivery practices.
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-3 hover:bg-blue-100 transition-colors">
+                        <p class="text-xs text-blue-900 font-medium mb-1">KEY IMPACT</p>
+                        <p class="text-sm text-blue-800">
+                            Shifted engineering focus from feature shipping to outcome delivery using KPIs, feedback loops, and structured release planning.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-green-100 transition-colors">Backend Systems</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-green-100 transition-colors">System Design</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-green-100 transition-colors">Team Leadership</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-green-100 transition-colors">Product Thinking</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Co-Founder (Latest) -->
+            <div class="reveal fade-in-left flex gap-8 items-start group">
+                <div class="flex-shrink-0 w-32 text-right">
+                    <span class="text-sm font-mono text-gray-400">Aug 2024 – Present</span>
+                </div>
+                <div class="flex-shrink-0 flex flex-col items-center">
+                    <div class="w-4 h-4 rounded-full bg-purple-600 border-2 border-white shadow-lg group-hover:scale-150 transition-transform"></div>
+                    <div class="w-0.5 h-full bg-gray-200 mt-2"></div>
+                </div>
+                <div class="flex-1 pb-12 hover-lift">
+                    <span class="inline-block mb-2 px-2 py-1 bg-purple-100 text-purple-800 rounded-sm text-[10px] uppercase tracking-wider font-semibold animate-pulse-slow">
+                        Current
+                    </span>
+                    <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-2">
+                        Co-Founder
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3 font-medium">
+                        Software & Product Venture
+                    </p>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        Building products where technical excellence meets real-world business needs. Leading backend architecture, technical strategy, and client delivery with a strong focus on outcome-driven development.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-purple-100 transition-colors">Entrepreneurship</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-purple-100 transition-colors">Product Strategy</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-purple-100 transition-colors">Technical Leadership</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-purple-100 transition-colors">Client Delivery</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Climbax Entertainment -->
+            <div class="reveal fade-in-left flex gap-8 items-start group">
+                <div class="flex-shrink-0 w-32 text-right">
+                    <span class="text-sm font-mono text-gray-400">Jan 2023 – Apr 2024</span>
+                </div>
+                <div class="flex-shrink-0 flex flex-col items-center">
+                    <div class="w-4 h-4 rounded-full bg-blue-600 border-2 border-white shadow-lg group-hover:scale-150 transition-transform"></div>
+                    <div class="w-0.5 h-full bg-gray-200 mt-2"></div>
+                </div>
+                <div class="flex-1 hover-lift">
+                    <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-2">
+                        Software Engineer I
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3 font-medium">
+                        Climbax Entertainment Pvt. Ltd
+                    </p>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        Built backend services for production platforms, developed secure APIs, and integrated third-party systems while collaborating closely with product teams.
+                    </p>
+                    <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-3 hover:bg-green-100 transition-colors">
+                        <p class="text-xs text-green-900 font-medium mb-1">FOUNDATION</p>
+                        <p class="text-sm text-green-800">
+                            Learned to balance technical constraints, compliance needs, and user experience in real-world systems.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-blue-100 transition-colors">Backend Development</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-blue-100 transition-colors">API Design</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-blue-100 transition-colors">Integrations</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-blue-100 transition-colors">Production Systems</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BTech -->
+            <div class="reveal fade-in-left flex gap-8 items-start group">
+                <div class="flex-shrink-0 w-32 text-right">
+                    <span class="text-sm font-mono text-gray-400">2019 – 2023</span>
+                </div>
+                <div class="flex-shrink-0 flex flex-col items-center">
+                    <div class="w-4 h-4 rounded-full bg-dark border-2 border-white group-hover:scale-150 transition-transform"></div>
+                </div>
+                <div class="flex-1 hover-lift">
+                    <h3 class="font-display text-2xl uppercase tracking-tight font-semibold mb-2">
+                        BTech in Computer Science & Engineering
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3 font-medium">
+                        JK Lakshmipat University
+                    </p>
+                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                        Built a strong foundation in software engineering, backend systems, and problem-solving with a focus on practical applications.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-gray-200 transition-colors">Computer Science</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-gray-200 transition-colors">Backend Systems</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-gray-200 transition-colors">Databases</span>
+                        <span class="px-2 py-1 bg-gray-100 rounded-sm text-[10px] uppercase tracking-wider font-mono hover:bg-gray-200 transition-colors">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="py-20 md:py-32 px-6 bg-charcoal text-white relative overflow-hidden" id="contact">
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="mb-12 text-center reveal">
+                <span class="block text-[10px] uppercase tracking-[0.2em] text-gray-400 mb-2">Let's Connect</span>
+                <h2 class="font-display text-7xl md:text-8xl uppercase tracking-tighter leading-none font-bold mb-6">
+                    CONTACT
+                </h2>
+                <p class="text-sm text-gray-400 max-w-md mx-auto">
+                    Open to opportunities where I can blend backend expertise with product thinking. Let's build something that matters.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <!-- Contact Info -->
+                <div class="reveal space-y-6">
+                    <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-6 hover:border-blue-500/50 transition-all group">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i data-lucide="mail" class="w-5 h-5 text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-1">Email</p>
+                                <a href="mailto:anurag@3pointdev.com" class="text-sm text-white hover:text-blue-400 transition-colors">office.anuragjha@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-6 hover:border-blue-500/50 transition-all group">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i data-lucide="linkedin" class="w-5 h-5 text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-1">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/anuragjha1954/" target="_blank" class="text-sm text-white hover:text-blue-400 transition-colors">linkedin.com/in/anuragjha1954</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-6 hover:border-blue-500/50 transition-all group">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i data-lucide="github" class="w-5 h-5 text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-1">GitHub</p>
+                                <a href="https://github.com/AnuragJha1954" target="_blank" class="text-sm text-white hover:text-blue-400 transition-colors">github.com/AnuragJha1954</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-purple-500/10 to-blue-500/10 backdrop-blur-xl border border-purple-500/30 rounded-lg p-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="briefcase" class="w-5 h-5 text-purple-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] uppercase tracking-widest text-purple-300 mb-1">Current Status</p>
+                                <p class="text-sm text-white font-medium mb-2">Open to Opportunities</p>
+                                <p class="text-xs text-gray-400 leading-relaxed">
+                                    Looking for roles where I can drive product impact through technical excellence. Backend engineering + product strategy + team leadership.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Enhanced Contact Form -->
+                <div class="reveal">
+                    <form id="contact-form" class="space-y-5 bg-white/5 backdrop-blur-xl border border-white/10 rounded-lg p-8 hover:border-white/20 transition-all">
+                        <div class="form-group">
+                            <label for="name" class="block text-[10px] uppercase tracking-widest text-gray-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="user" class="w-3 h-3"></i>
+                                Name *
+                            </label>
+                            <input type="text" id="name" name="name" required
+                                   placeholder="Your full name"
+                                   class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:bg-white/15 transition-all">
+                            <span class="error-message text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i>
+                                Please enter your name
+                            </span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="block text-[10px] uppercase tracking-widest text-gray-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="mail" class="w-3 h-3"></i>
+                                Email *
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                   placeholder="your.email@company.com"
+                                   class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:bg-white/15 transition-all">
+                            <span class="error-message text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i>
+                                Please enter a valid email address
+                            </span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="block text-[10px] uppercase tracking-widest text-gray-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="tag" class="w-3 h-3"></i>
+                                Subject *
+                            </label>
+                            <select id="subject" name="subject" required
+                                    class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 focus:bg-white/15 transition-all">
+                                <option value="" class="bg-charcoal">Select a topic...</option>
+                                <option value="job-opportunity" class="bg-charcoal">💼 Job Opportunity</option>
+                                <option value="project-collaboration" class="bg-charcoal">🤝 Project Collaboration</option>
+                                <option value="consulting" class="bg-charcoal">💡 Consulting Inquiry</option>
+                                <option value="speaking-event" class="bg-charcoal">🎤 Speaking Event</option>
+                                <option value="general-inquiry" class="bg-charcoal">✉️ General Inquiry</option>
+                            </select>
+                            <span class="error-message text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i>
+                                Please select a subject
+                            </span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="block text-[10px] uppercase tracking-widest text-gray-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="message-square" class="w-3 h-3"></i>
+                                Message *
+                            </label>
+                            <textarea id="message" name="message" rows="5" required
+                                      placeholder="Tell me about your opportunity, project, or how we can work together..."
+                                      class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:bg-white/15 transition-all resize-none"></textarea>
+                            <div class="flex justify-between items-center mt-1">
+                                <span class="error-message text-xs text-red-400 hidden flex items-center gap-1">
+                                    <i data-lucide="alert-circle" class="w-3 h-3"></i>
+                                    Please enter your message
+                                </span>
+                                <span id="char-count" class="text-xs text-gray-300">0 / 500 characters</span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" 
+                                class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 text-[10px] font-semibold uppercase tracking-widest rounded hover:from-blue-700 hover:to-purple-700 transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                            <span id="submit-text">Send Message</span>
+                            <span id="submit-loader" class="hidden">
+                                <i data-lucide="loader-2" class="w-4 h-4 animate-spin"></i>
+                            </span>
+                            <i data-lucide="send" class="w-4 h-4" id="submit-icon"></i>
+                        </button>
+                        
+                        <div id="form-success" class="hidden text-center p-4 bg-green-500/20 border border-green-500/50 rounded">
+                            <div class="flex items-center justify-center gap-2 text-green-400 mb-2">
+                                <i data-lucide="check-circle" class="w-5 h-5"></i>
+                                <span class="font-semibold">Message Sent Successfully!</span>
+                            </div>
+                            <p class="text-xs text-gray-300">
+                                Thanks for reaching out. I'll get back to you within 24-48 hours.
+                            </p>
+                        </div>
+                        
+                        <p class="text-xs text-gray-500 text-center">
+                            <i data-lucide="lock" class="w-3 h-3 inline"></i>
+                            Your information is secure and will only be used to respond to your inquiry.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark border-t border-white/5 py-12 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
+                <div>
+                    <div class="font-display text-3xl tracking-tighter uppercase font-semibold text-white mb-2">
+                        ANURAG JHA<span class="opacity-50">.</span>
+                    </div>
+                    <p class="text-xs text-gray-500 max-w-sm">
+                        Backend Developer × Product Strategist<br>
+                        Building systems that scale technically and commercially
+                    </p>
+                </div>
+                
+                <div class="flex flex-col items-center md:items-end gap-4">
+                    <div class="flex gap-4">
+                        <a href="https://github.com/AnuragJha1954" target="_blank" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all" aria-label="GitHub">
+                            <i data-lucide="github" class="w-4 h-4 stroke-[1.5]"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/anuragjha1954/" target="_blank" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all" aria-label="LinkedIn">
+                            <i data-lucide="linkedin" class="w-4 h-4 stroke-[1.5]"></i>
+                        </a>
+                        <a href="mailto:office.anuragjha@gmail.com" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all" aria-label="Email">
+                            <i data-lucide="mail" class="w-4 h-4 stroke-[1.5]"></i>
+                        </a>
+                        <a href="https://devportfolio-op71h23.public.builtwithrocket.new" target="_blank" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-dark transition-all" aria-label="3pointDev">
+                            <i data-lucide="globe" class="w-4 h-4 stroke-[1.5]"></i>
+                        </a>
+                    </div>
+                    <div class="flex gap-6 text-[10px] uppercase tracking-widest text-gray-600">
+                        <a href="#about" class="hover:text-white transition-colors">About</a>
+                        <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+                        <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+                        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="text-[10px] uppercase tracking-widest text-gray-600">
+                    © 2026 Anurag Jha · All Rights Reserved
+                </div>
+                <div class="flex items-center gap-2 text-[10px] uppercase tracking-widest text-gray-600">
+                    <span>Built with</span>
+                    <i data-lucide="heart" class="w-3 h-3 fill-red-500 text-red-500"></i>
+                    <span>& Product Thinking</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+        
+        // Intersection Observer for Scroll Reveals
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        revealElements.forEach(el => revealObserver.observe(el));
+        
+        // Stagger animation for children
+        document.querySelectorAll('.stagger-child').forEach((el, index) => {
+            el.style.setProperty('--stagger-index', index);
+        });
+        
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('translate-y-full');
+            document.body.classList.toggle('overflow-hidden');
+        }
+        
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('py-4', 'bg-dark/80', 'backdrop-blur-md');
+                nav.classList.remove('py-6');
+            } else {
+                nav.classList.remove('py-4', 'bg-dark/80', 'backdrop-blur-md');
+                nav.classList.add('py-6');
+            }
+        });
+        
+        // Parallax effect for hero background
+        window.addEventListener('scroll', () => {
+            const parallaxBg = document.querySelector('.parallax-bg');
+            if (parallaxBg) {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * 0.5;
+                parallaxBg.style.transform = `translate3d(0, ${rate}px, 0)`;
+            }
+        }, { passive: true });
+        
+        // Counter animation
+        const animateCounter = (element) => {
+            const target = parseInt(element.getAttribute('data-target'));
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            let current = 0;
+            
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+                    element.textContent = Math.floor(current).toLocaleString();
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target.toLocaleString() + (target >= 1000 ? 'K+' : '+');
+                }
+            };
+            
+            updateCounter();
+        };
+        
+        // Observe counters
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                    entry.target.classList.add('animated');
+                    animateCounter(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        document.querySelectorAll('.counter').forEach(counter => {
+            counterObserver.observe(counter);
+        });
+        
+        // Character Counter for Message Textarea
+        const messageTextarea = document.getElementById('message');
+        const charCount = document.getElementById('char-count');
+        const maxChars = 500;
+        
+        if (messageTextarea && charCount) {
+            messageTextarea.addEventListener('input', (e) => {
+                const length = e.target.value.length;
+                charCount.textContent = `${length} / ${maxChars} characters`;
+                
+                if (length > maxChars) {
+                    charCount.classList.add('text-red-400');
+                    charCount.classList.remove('text-gray-500');
+                } else {
+                    charCount.classList.remove('text-red-400');
+                    charCount.classList.add('text-gray-500');
+                }
+            });
+        }
+        
+        // Enhanced Contact Form Handling
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const submitText = document.getElementById('submit-text');
+            const submitLoader = document.getElementById('submit-loader');
+            const submitIcon = document.getElementById('submit-icon');
+            const formSuccess = document.getElementById('form-success');
+            
+            // Real-time validation
+            const formInputs = contactForm.querySelectorAll('input, textarea, select');
+            formInputs.forEach(input => {
+                input.addEventListener('blur', () => {
+                    validateField(input);
+                });
+                
+                input.addEventListener('input', () => {
+                    if (input.classList.contains('border-red-500')) {
+                        validateField(input);
+                    }
+                });
+            });
+            
+            function validateField(field) {
+                const formGroup = field.closest('.form-group');
+                const errorMsg = formGroup.querySelector('.error-message');
+                let isValid = true;
+                
+                if (field.type === 'email') {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    isValid = emailRegex.test(field.value.trim());
+                    if (!isValid && field.value.trim() !== '') {
+                        errorMsg.textContent = 'Please enter a valid email address';
+                    }
+                } else if (field.tagName === 'SELECT') {
+                    isValid = field.value !== '';
+                } else {
+                    isValid = field.value.trim() !== '';
+                }
+                
+                if (!isValid) {
+                    field.classList.add('border-red-500', 'border-2');
+                    field.classList.remove('border-white/20');
+                    errorMsg.classList.remove('hidden');
+                } else {
+                    field.classList.remove('border-red-500', 'border-2');
+                    field.classList.add('border-white/20');
+                    errorMsg.classList.add('hidden');
+                }
+                
+                return isValid;
+            }
+            
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                // Clear previous errors
+                const errorMessages = contactForm.querySelectorAll('.error-message');
+                errorMessages.forEach(msg => msg.classList.add('hidden'));
+                
+                const inputs = contactForm.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    input.classList.remove('border-red-500', 'border-2');
+                    input.classList.add('border-white/20');
+                });
+                
+                // Validate all fields
+                let isValid = true;
+                inputs.forEach(input => {
+                    if (!validateField(input)) {
+                        isValid = false;
+                    }
+                });
+                
+                // Check message length
+                const message = document.getElementById('message');
+                if (message.value.length > maxChars) {
+                    isValid = false;
+                    const formGroup = message.closest('.form-group');
+                    const errorMsg = formGroup.querySelector('.error-message');
+                    errorMsg.textContent = `Message is too long (max ${maxChars} characters)`;
+                    errorMsg.classList.remove('hidden');
+                    message.classList.add('border-red-500', 'border-2');
+                }
+                
+                if (!isValid) {
+                    // Shake animation for submit button
+                    submitBtn.classList.add('animate-shake');
+                    setTimeout(() => {
+                        submitBtn.classList.remove('animate-shake');
+                    }, 500);
+                    return;
+                }
+                
+                // Show loading state
+                submitText.classList.add('hidden');
+                submitIcon.classList.add('hidden');
+                submitLoader.classList.remove('hidden');
+                submitBtn.disabled = true;
+                submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+                
+                // Simulate form submission (replace with actual API call)
+                setTimeout(() => {
+                    submitText.classList.remove('hidden');
+                    submitLoader.classList.add('hidden');
+                    submitIcon.classList.remove('hidden');
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+                    
+                    // Show success message
+                    formSuccess.classList.remove('hidden');
+                    contactForm.reset();
+                    charCount.textContent = '0 / 500 characters';
+                    
+                    // Re-initialize Lucide icons
+                    lucide.createIcons();
+                    
+                    // Scroll to success message
+                    formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    
+                    // Hide success message after 8 seconds
+                    setTimeout(() => {
+                        formSuccess.classList.add('hidden');
+                    }, 8000);
+                }, 2000);
+            });
+        }
+        
+        // Smooth Scroll for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (mobileMenu && !mobileMenu.classList.contains('translate-y-full')) {
+                        toggleMenu();
+                    }
+                    
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+        
+        // Add shake animation to styles
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes shake {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(-10px); }
+                75% { transform: translateX(10px); }
+            }
+            .animate-shake {
+                animation: shake 0.5s ease-in-out;
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Performance: Lazy load images
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.src;
+            });
+        } else {
+            // Fallback for browsers that don't support lazy loading
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+            document.body.appendChild(script);
+        }
+    </script>
+<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
+</body>
+</html>
