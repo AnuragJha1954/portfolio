@@ -1030,8 +1030,22 @@
                 submitBtn.disabled = true;
                 submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
                 
-                // Simulate form submission (replace with actual API call)
-                setTimeout(() => {
+                // Send actual API call to Vercel Serverless Function
+                fetch('/api/contact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: document.getElementById('name').value,
+                        email: document.getElementById('email').value,
+                        subject: document.getElementById('subject').value,
+                        message: document.getElementById('message').value
+                    })
+                })
+                .then(res => {
+                    if (!res.ok) throw new Error('Network response was not ok');
+                    return res.json();
+                })
+                .then(data => {
                     submitText.classList.remove('hidden');
                     submitLoader.classList.add('hidden');
                     submitIcon.classList.remove('hidden');
@@ -1053,7 +1067,16 @@
                     setTimeout(() => {
                         formSuccess.classList.add('hidden');
                     }, 8000);
-                }, 2000);
+                })
+                .catch(err => {
+                    console.error('Submission error:', err);
+                    alert('There was an error sending your message. Please try again later.');
+                    submitText.classList.remove('hidden');
+                    submitLoader.classList.add('hidden');
+                    submitIcon.classList.remove('hidden');
+                    submitBtn.disabled = false;
+                    submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+                });
             });
         }
         
